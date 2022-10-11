@@ -26,6 +26,10 @@ a {
   color: white;
   font-weight: bold;
   font-size: 2rem;
+
+  span {
+    color: red;
+  }
 }
 
 nav {
@@ -94,7 +98,7 @@ section.hero {
   .down-arrow {
     stroke: white;
     position: absolute;
-    bottom: 2em;
+    bottom: 8em;
     width: 1em;
     animation: moveArrow 1s alternate-reverse infinite;
 
@@ -177,10 +181,6 @@ section.hero {
 
   .logo {
     color: black;
-
-    span {
-      color: red;
-    }
   }
 
   section.hero {
@@ -192,6 +192,7 @@ section.hero {
     svg.down-arrow {
       stroke: black;
       position: unset;
+      margin-top: 3em;
 
       path {
         fill: black;
@@ -231,7 +232,7 @@ section.hero {
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1297px) {
   .wrapper {
     width: 1200px;
     margin: 0 auto;
